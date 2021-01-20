@@ -1,8 +1,9 @@
 <h2>My Heroes</h2>
 <ul class="heroes">
-  <li *ngFor="let hero of heroes"
-      [class.selected]="hero === selectedHero"
-      (click)= "onSelect(hero)">
-      <span class="badge">{{hero.id}}</span> {{hero.name}}</li>
+  <li *ngFor="let hero of heroes">
+    <a routerLink="/detail/{{hero.id}}">
+      <!-- Can't bind to 'routerLink' since it isn't a known property of 'a' 오류가 떴을 경우 app.moudule.ts에서 RouterModule을 import 해주면 해결됨-->
+      <span class="badge">{{hero.id}}</span> {{hero.name}}
+    </a>
+  </li>
 </ul>
-<app-hero-detail [hero]="selectedHero"></app-hero-detail>
