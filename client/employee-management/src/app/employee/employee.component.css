@@ -1,0 +1,14 @@
+/* .table {width: 50%; position: relative; margin: 0 auto;} */
+.employee_list{position: relative; width: 60%; margin: 0 auto;}
+
+.table .name {background: #003458; color:#f9f9f9; width: 7vw; text-align: center; border: 1px solid #9f9f9f; float: left; }
+.table .designation {background: #003458; color:#f9f9f9; width:15vw; text-align: center; border: 1px solid #9f9f9f; float: left;}
+.table::after{content: ""; clear: both; display: block;}
+
+.content_table .name_table {color: #003458; background:#f9f9f9; width: 7vw; text-align: center; border: 1px solid #9f9f9f; float: left; }
+.content_table .designation_table {color: #003458; background:#f9f9f9; width:15vw; text-align: center; border: 1px solid #9f9f9f; float: left;}
+.content_table::after{content: ""; clear: both; display: block;}
+
+.button_table{background:#f89b00; border: 1px solid #f89b00; color: #003458; margin-left: 1vw;}
+.button_table:hover {background:#c67c00; border: 1px solid #c67c00; color: #f9f9f9;}
+

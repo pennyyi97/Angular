@@ -1,0 +1,9 @@
+<div class="login">
+  <div class="login_content">
+    ID : <input type="text" name="username" [(ngModel)]="username">
+  </div>
+  <div class="login_content">
+    PW : <input type="password" name="password" [(ngModel)]="password">
+  </div>
+  <button (click)="checkLogin()" class="btn_login">로그인</button>
+</div>

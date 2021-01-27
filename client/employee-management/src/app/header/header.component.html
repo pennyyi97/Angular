@@ -1,0 +1,11 @@
+<header class="header">
+  <nav>
+    <div>Penny Test Angular & Spring</div>
+    <ul class="header_nav">
+      <li><a *ngIf="loginService.isUserLoggedIn()" routerLink="/" class="main_nav">직원 목록</a></li>
+      <li><a *ngIf="loginService.isUserLoggedIn()" routerLink="/addemployee">직원 등록</a></li>
+      <li><a *ngIf="!loginService.isUserLoggedIn()" routerLink="/login">로그인</a></li>
+      <li><a *ngIf="loginService.isUserLoggedIn()" routerLink="/logout">로그아웃</a></li>
+    </ul>
+  </nav>
+</header>

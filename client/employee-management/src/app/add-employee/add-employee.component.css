@@ -1,0 +1,10 @@
+.Add_Emp {position: relative;width: 60%;margin: 0 auto;}
+.Add_Emp h2{font-weight: bold; font-size: 36px; color:#003458;text-align: center;}
+
+.Add_Emp .add_content{text-align: left; color:#003458;font-size: 18px;line-height: 5vh;}
+.Add_Emp .add_content input {border:none;}
+.Add_Emp .add_content input {border-bottom: 1px solid #003458; width: 100%;}
+.Add_Emp .add_content input:focus{outline: none;}
+
+.Add_Emp .btn_add {width: 10%; background:#f89b00; color:#003458; border:1px solid #f89b00; font-size: 16px; font-weight: bold; line-height: 3vh;}
+.Add_Emp .btn_add:hover {background:#c67c00; border: 1px solid #c67c00; color: #f9f9f9;}

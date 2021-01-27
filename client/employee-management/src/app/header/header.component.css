@@ -1,0 +1,8 @@
+.header{background: #2c2c2c; color: #f9f9f9;}
+
+.header div{width: 15%; float: left; line-height: 5vh;}
+
+.header_nav li{list-style: none; width: 10%; float: left;}
+.header_nav li a{color:#f9f9f9; line-height: 5vh; text-decoration: none;}
+.header_nav::after{content: ""; display: block; clear: both;}
+

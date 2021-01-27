@@ -1,0 +1,10 @@
+<div class="employee_list">
+  <div class="table">
+    <div class="name">이름</div><div class="designation">직급</div>
+  </div>
+  <div *ngFor="let employee of employees" class="content_table">
+    <div class="name_table"> {{employee.name}} </div>
+    <div class="designation_table">{{employee.designation}}</div>
+    <button class="button_table" (click)="deleteEmployee(employee)">직원 삭제</button>
+  </div>
+</div>
